@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="640"
+   height="384">
+  <path d="m 136,312 -16,64 400,0 -16,-64 z" fill="#e8b340"/>
+  <rect x="128" y="152" width="384" height="192" fill="#d0d0d0"/>
+  <rect x="144" y="152" width="352" height="176" fill="#357034"/>
+  <rect x="208" y="152" width="224" height="128" fill="#244d24"/>
+  <rect x="208" y="168" width="224" height="128" fill="#d8c8c8"/>
+  <rect x="208" y="264" width="224" height="24" fill="#bfa6a6"/>
+  <rect x="128" y="288" width="16" height="24" fill="#333"/>
+  <rect y="292" width="176" height="16" fill="#aeaeae"/>
+  <rect x="168" y="288" width="304" height="24" fill="#202020"/>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#fff;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="320"
+     y="304"
+     id="text3780"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3782"
+       x="320"
+       y="304">graphite cathode</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text3954"
+     y="280"
+     x="320"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="280"
+       x="320"
+       id="tspan3956"
+       sodipodi:role="line">molten aluminium</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text3958"
+     y="323.4794"
+     x="320"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#fff;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="323.4794"
+       x="320"
+       id="tspan3960"
+       sodipodi:role="line">ceramic</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="320"
+     y="340"
+     id="text3962"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3964"
+       x="320"
+       y="340">steel casing</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="320"
+     y="233.4382"
+     id="text3966"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3968"
+       x="320"
+       y="233.4382">molten cryolite/alumina</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4006"
+     y="360"
+     x="320"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="360"
+       x="320"
+       id="tspan4008"
+       sodipodi:role="line">insulation</tspan></text>
+  <rect x="216" y="128" width="136" height="72" fill="#202020"/>
+  <path d="m 472,96 -248,0 0,96 8,-8 0,-80 8,0 0,88 8,-8 0,-80 8,0 0,88 8,-8 0,-80 8,0 0,88 8,-8 0,-80 8,0 0,88 8,-8 0,-80 8,0 0,88 8,-8 0,-80 8,0 0,88 8,-8 0,-80 8,0 0,88 8,-8 0,-80 128,0" fill="#d0d0d0"/>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#fff;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="384"
+     y="163.4794"
+     id="text4037"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4039"
+       x="384"
+       y="163.4794">crust</tspan></text>
+  <path d="m 640,128 -168,0 0,-48 16,16 0,16 152,0 z" fill="#aeaeae"/>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4049"
+     y="88"
+     x="262.08984"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="88"
+       x="264"
+       id="tspan4051"
+       sodipodi:role="line">steel spider </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="200"
+     y="116.66081"
+     id="text4053"
+     sodipodi:linespacing="110%"><tspan
+       sodipodi:role="line"
+       id="tspan4055"
+       x="200"
+       y="116.66081">fused coke</tspan><tspan
+       sodipodi:role="line"
+       x="200"
+       y="129.86081"
+       id="tspan4067">anode</tspan></text>
+  <path d="m 640,360 -104,0 c -5,0 -8,-3 -8,-8 l 0,-208 -104,0 0,136 -8,0 0,-136 c 0,-5 3,-8 8,-8 l 104,0 c 5,0 8,3 8,8 l 0,208 104,0 z" fill="#666"/>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4061"
+     y="-544"
+     x="248"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"
+     transform="matrix(0,1,-1,0,0,0)"><tspan
+       y="-544"
+       x="248"
+       id="tspan4063"
+       sodipodi:role="line">siphon to retrieve aluminium</tspan></text>
+  <path d="M 192,132.36443 192,144 l 24,0" style="fill:none;stroke:#000"/>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="60.014648"
+     y="272"
+     id="text4069"
+     sodipodi:linespacing="110%"><tspan
+       sodipodi:role="line"
+       id="tspan4071"
+       x="60.014648"
+       y="272">bus bar to</tspan><tspan
+       sodipodi:role="line"
+       x="60.014648"
+       y="285.20001"
+       id="tspan4073">previous cell</tspan></text>
+  <path d="m 54.01898,250.00001 11.96204,0 M 68.75569,250 c 0,4.8356 -3.92008,8.75569 -8.75569,8.75569 -4.83561,0 -8.75569,-3.92009 -8.75569,-8.75569 0,-4.8356 3.92008,-8.7557 8.75569,-8.7557 4.83561,0 8.75569,3.9201 8.75569,8.7557 z" style="fill:none;stroke:#000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"/>
+  <text
+     sodipodi:linespacing="110%"
+     id="text4079"
+     y="92"
+     x="580"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="92"
+       x="580"
+       id="tspan4081"
+       sodipodi:role="line">bus bar to</tspan><tspan
+       id="tspan4083"
+       y="105.2"
+       x="580"
+       sodipodi:role="line">next cell</tspan></text>
+  <path d="m 574.00431,70.00002 11.96204,0 m -5.98103,-5.98101 2e-5,11.96202 m 8.75568,-5.98102 c 0,4.8356 -3.92008,8.75569 -8.75569,8.75569 -4.83561,0 -8.75569,-3.92009 -8.75569,-8.75569 0,-4.8356 3.92008,-8.7557 8.75569,-8.7557 4.83561,0 8.75569,3.9201 8.75569,8.7557 z" style="fill:none;stroke:#000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"/>
+  <path d="m 560,120 4.32907,4.32916 M 600,120 l -40,0 4.32907,-4.32916" style="fill:none;stroke:#000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"/>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="588"
+     y="142"
+     id="text4117"
+     sodipodi:linespacing="110%"><tspan
+       sodipodi:role="line"
+       x="588"
+       y="142"
+       id="tspan4121">220 kA current</tspan></text>
+  <path d="m 360,0 0,64 96,0 c 40,0 64,24 64,64 l 0,216 8,32 m -416,0 8,-32 0,-216 c 0,-40 24,-64 64,-64 l 96,0 0,-64" style="fill:none;stroke:#000"/>
+  <rect y="368" width="640" height="16" fill="#f1d18c"/>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4010"
+     y="379.4794"
+     x="320"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="379.4794"
+       x="320"
+       id="tspan4012"
+       sodipodi:role="line">ground</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     x="416"
+     y="58"
+     id="text4127"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4129"
+       x="416"
+       y="58">fume hood</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4131"
+     y="52"
+     x="320"
+     style="font-size:7px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="52"
+       x="320"
+       sodipodi:role="line"
+       id="tspan4135">hydrogen fluoride,</tspan><tspan
+       y="60.75"
+       x="320"
+       sodipodi:role="line"
+       id="tspan4139">particulate exhaust</tspan></text>
+  <path d="m 320,8 -5.64096,5.64091 M 320,44 l 0,-36 5.64096,5.64091" style="fill:none;stroke:#000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"/>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4143"
+     y="24"
+     x="96"
+     style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+     xml:space="preserve"><tspan
+       y="24"
+       x="96"
+       sodipodi:role="line"
+       id="tspan4147">Hall–Héroult cell</tspan><tspan
+       y="41.5"
+       x="96"
+       sodipodi:role="line"
+       id="tspan4151">Schematic cross-section</tspan></text>
+</svg>

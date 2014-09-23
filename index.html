@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Геном был вчера: метилом, Марков и аденома</title>
+
+		<meta name="description" content="A talk about bioinformatics">
+		<meta name="author" content="Dmitry Groshev">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
+        <link rel="stylesheet" href="plugin/highlight/styles/idea.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+        <style type="text/css">
+          @import url(http://fonts.googleapis.com/css?family=Ubuntu);
+          .reveal { font-family: "Ubuntu", sans-serif; }
+          .reveal .slide-number { font-size: 24px; }
+          .reveal h1,
+          .reveal h2,
+          .reveal h3,
+          .reveal h4,
+          .reveal h5,
+          .reveal h6 {
+              font-family: "Ubuntu", sans-serif;
+              letter-spacing: 0em;
+          }
+          .reveal pre code {
+              font-weight: normal !important;
+          }
+          .hljs-title {
+              font-weight: normal !important;
+          }
+          .reveal pre code.large {
+              font-size: 1.5em;
+              line-height: 1.25em;
+          }
+          img {
+              border-width: 0px !important;
+          }
+        </style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>геном был вчера</h1>
+					<h3>метилом, Марков и аденома</h3>
+					<p>
+						<small>Dmitry Groshev <a href="http://twitter.com/lambdadmitry">@lambdadmitry</a></small>
+					</p>
+				</section>
+
+                <section>
+                  <img src="img/bauxite_mine.jpg" style="width: 75%;">
+                </section>
+
+                <section>
+                  <img src="img/cryolite.jpg" style="width: 75%;">
+                </section>
+
+                <section>
+                  <img src="img/Hall-Heroult_cell_schematic.svg" style="width: 75%;">
+                </section>
+
+                <section>
+                  <img src="img/bauxite_paper.png" style="width: 85%;">
+                </section>
+
+                <section>
+                  <h3>бездна внутри простых вещей</h3>
+                  <p>что же внутри сложных?</p>
+                </section>
+
+                <section>
+                  <h3>Живое: туда и обратно</h3>
+                  <ul>
+                    <li>туда: как всё устроено
+                    <li>обратно: биоинформатика
+                    <li>как я провёл это лето: метилом
+                  </ul>
+                </section>
+
+                <section>
+                  <h2>Туда</h2>
+                  <p>О живом</p>
+                </section>
+
+                <section>
+                  <img src="img/cancer.jpg" style="width: 55%;">
+                </section>
+
+                <section>
+                  <img src="img/Animal_cell_structure_en.svg" style="width: 85%;">
+                </section>
+
+                <section>
+                  <img src="img/HeLa_cells_stained_with_Hoechst_33258.jpg" style="width: 85%;">
+                </section>
+
+                <section>
+                  <img src="img/DAPIMitoTrackerRedAlexaFluor488BPAE.jpg" style="width: 85%;">
+                </section>
+
+                <section>
+                  <img src="img/Proteinsynthesis.png" style="width: 35%;">
+                  <p>отступление о белках</p>
+                </section>
+
+                <section>
+                  <img src="img/Chromatin_Structures.png" style="width: 95%;">
+                </section>
+
+                <section>
+                  <img src="img/Lac_Operon.svg" style="width: 85%;">
+                </section>
+
+                <section>
+                  <h2>Обратно</h2>
+                  <p>проблемы и биоинформатика</p>
+                </section>
+
+                <section>
+                  <h3>Всё просто?</h3>
+                  <ul>
+                    <li>ДНК — строка (ATATATCGCATT)
+                    <li>РНК — строка (AUAUAUCGCAUU)
+                    <li>белок — строка (IYRI)
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Проблемы</h3>
+                  <ul>
+                    <li>промоутеры/сайленсеры
+                    <li>слайсинг
+                    <li>фолдинг
+                    <li>взаимодействие белков
+                    <li>обратные связи!
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Биоинформатика: ДНК</h3>
+                  <ul>
+                    <li>выделение сигнала из шума
+                    <li>сборка генома
+                    <li>сравнение геномов
+                    <li>аннотирование
+                    <li>эволюционные деревья
+                    <li>фолдинг?
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Биоинформатика: РНК</h3>
+                  <ul>
+                    <li>выравнивание РНК
+                    <li>сплайсинг
+                    <li>фолдинг
+                    <li>некодирующие РНК
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Биоинформатика: белки</h3>
+                  <ul>
+                    <li>чтение структуры: дифракция, МРТ
+                    <li>ab initio: сотни тысяч атомов, N²
+                    <li>динамическая смена конформации
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Биоинформатика: клетка</h3>
+                  <p>Метаболические пути!</p>
+                  <img src="img/Signal_transduction_pathways.svg" style="width: 75%;">
+                </section>
+
+                <section>
+                  <h3>Биоинформатика: организм</h3>
+                  <ul>
+                    <li>межклеточные сигналы
+                    <li>биология развития
+                    <li>дифференциация!
+                  </ul>
+                </section>
+
+                <section>
+                  <h2>Как я провёл это лето</h2>
+                  <p>Соавтор/руководитель: Сергей <a href="http://twitter.com/superbobry">@superbobry</a> Лебедев</p>
+                </section>
+
+                <section>
+                  <h3>Метилирование</h3>
+                  <ul>
+                    <li>ДНК оказалось мало
+                    <li>динамичная модификация цитозинов
+                    <li>экспрессия &lt;-&gt; метилирование
+                    <li>метилом
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Чтение метилома</h3>
+                  <ul>
+                    <li>бисульфитное секвенирование
+                    <li>С → U → T
+                    <li>сравнение с референсом
+                    <li>2 числа: #C и #T
+                  </ul>
+                </section>
+
+                <section>
+                  <img src="img/bisulfite.png" style="width: 95%;">
+                </section>
+
+                <section>
+                  <h3>Марковская модель</h3>
+                  <ul>
+                    <li>скрытые состояния: истинное метилирование
+                    <li>биномиальные испускания
+                    <li>загвоздка: обучение
+                    <li><a href="http://f1000.com/posters/browse/summary/1096743">постер</a>
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Сравнение метиломов</h3>
+                  <ul>
+                    <li>динамичность
+                    <li>прочитать, расшифровать, сравнить
+                    <li>можно ли лучше?
+                    <li>предположение о независимости
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Двумерные модели</h3>
+                  <ul>
+                    <li>одна HMM, два испускания
+                    <li>N² состояний
+                    <li>результат: двумерная модель гораздо лучше :)
+                  </ul>
+                </section>
+
+                <section>
+                  <ul>
+                    <h3>Отступление: lessons learned</h3>
+                    <li>очень тяжело тестировать нетестируемое
+                    <li>FJ крутой
+                    <li>Java 8 волшебна
+                    <li>без Guava и Trove нет жизни
+                  </ul>
+                </section>
+
+                <section>
+                  <h2>Взламывайте природу</h2>
+                  <img src="hypnotoad.gif">
+                </section>
+
+				<section>
+					<h3>Спасибо за внимание!</h3>
+                    <p>Слайды: <a href="http://si14.github.io/klutch-2014-09-slides">si14.github.io/klutch-2014-09-slides</a></p>
+                    <p>Твиттер: <a href="https://twitter.com/lambdadmitry">@lambdadmitry</a></p>
+                    <p>Почта: <a href="mailto:lambdadmitry@gmail.com">lambdadmitry@gmail.com</a></p>
+				</section>
+
+                <section>
+                  <h3>Использованные ресурсы</h3>
+                  <small>
+                  <ul>
+                    <li>http://www.sierrabauxite.com/Bauxite%20Mine-DR2.jpg
+                    <li>http://en.wikipedia.org/wiki/File:Hall-Heroult_cell_schematic.svg
+                    <li>http://en.wikipedia.org/wiki/File:816-_Ivigtut_-_cryolite.jpg
+                    <li>http://en.wikipedia.org/wiki/File:Tumor_Mesothelioma2_legend.jpg
+                    <li>http://en.wikipedia.org/wiki/File:Animal_cell_structure_en.svg
+                    <li>http://en.wikipedia.org/wiki/File:HeLa_cells_stained_with_Hoechst_33258.jpg
+                    <li>http://en.wikipedia.org/wiki/File:DAPIMitoTrackerRedAlexaFluor488BPAE.jpg
+                    <li>http://en.wikipedia.org/wiki/File:Proteinsynthesis.png
+                    <li>http://en.wikipedia.org/wiki/File:Central_Dogma_of_Molecular_Biochemistry_with_Enzymes.jpg
+                    <li>http://en.wikipedia.org/wiki/File:Signal_transduction_pathways.svg
+                  </ul>
+                  </small>
+                </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+                slideNumber: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
